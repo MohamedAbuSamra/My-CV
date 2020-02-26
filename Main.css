@@ -1,0 +1,373 @@
+
+body {
+    position: absolute;
+    margin:0;
+    padding:0;
+    font-family: Roboto;
+    background:FAFAFA;
+   
+ }
+
+ .mainbar ul{  
+    list-style:none;
+    position: absolute;
+    width: 405px;
+    height: 28px;
+    left: 149px;
+    top: 41px;
+}
+
+.mainbar  a {
+    text-decoration: none;
+    color:#595959;
+    font-size:24px;
+}
+
+.mainbar a:hover{
+    font-size: 36px;
+    color: #000000;
+    font-weight: bold;
+}
+.mainbar li{
+    display: flex;
+    float:left;
+    margin-left:20px;
+}
+
+.HiThere {
+    position: absolute;
+    width: 234px;
+    height: 35px;
+    left: 122px;
+    top: 216px;
+    font-size: 18px;
+    color: rgba(89, 89, 89, 0.5);
+    text-shadow: 6px 12px 2px rgba(0, 0, 0, 0.13);
+}
+.LineHeader {
+    position: absolute;
+    width: 503px;
+    height: 35px;
+    left: 122px;
+    top: 251px;
+    font-size: 24px;
+    color: #595959;
+}
+
+.downloadButton {
+    position: absolute;
+    width: 214px;
+    height: 63px;
+    left: 225px;
+    top: 411px;
+    text-decoration: none;
+    color: #000000;
+    text-align: center;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    box-shadow: 0px 2px 10px #A2A2A2;
+    border-radius: 17px;
+    text-decoration: none;
+    font-size: 24px;
+    padding: 14px;
+
+}
+.downloadButton img{
+    left: 239px;
+    top: 425px;
+    width: 25.1px;
+    height: 26.69px;
+}
+
+
+.image1{
+    position: absolute;
+    width: 100px;
+    height: 99.89px;
+    left: 122px;
+    top: 582px;
+}
+
+.image3{
+    position: absolute;
+    width: 100px;
+    height: 65.68px;
+    left: 490px;
+    top: 592px;
+}
+
+.image2{
+    position: absolute;
+    left: 19.86%;
+    right: 73.19%;
+    left: 286px;
+    top: 564px;
+}
+
+.ProfilePic img{
+    position: absolute;
+    left: 980px;
+    top:0px;
+    clip-path: circle( 63% at 100% 50%);
+
+    
+}
+
+
+.sections{
+    position: absolute;
+    width: 453px;
+    height: 54px;
+    left: 152px;
+    top: 1048px;
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 49px;
+    margin-top: -41px
+}
+
+.card {
+    width: 350px;
+    height: 200px;
+    margin-left:40px;
+    margin-top:40px;
+    background: linear-gradient(180deg,
+     #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), 
+     #F1F9E7;
+    border: 1px solid #D9D9D9;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;  
+}
+
+.card div{
+    margin-top: 85px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.wrapper{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    position: absolute;
+    left: 152px;
+    top: 1143px;
+}
+
+.sections2{
+    position: absolute;
+    width: 874px;
+    height: 54px;
+    left: 152px;
+    top: 1782px;
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 49px;
+    margin-top: -41px
+    }
+
+.cricle{
+    position: absolute;
+    width: 85px;
+    height: 85px;
+    background: #88E2F5;
+    border-radius: 50%;
+    
+    }
+
+.cricle div{
+    margin-top: 27px;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.line{
+    margin-left: 37px;
+    position: absolute;
+    height: 1650px;
+    border: 5px solid #88E2F5;
+}
+.p1 {
+    left: 692px;
+    top: 1869px;
+}
+.p2{
+
+    left: 692px;
+    top: 2187px; 
+}
+
+.p3{
+    left: 692px;
+    top: 2480px; 
+}
+
+.p4{
+    
+    left: 692px;
+    top: 2760px; 
+}
+
+.p5{
+    
+    left: 692px;
+    top: 3030px; 
+}
+
+.p6{
+    width: 42px;
+    height: 42px;  
+    background: #88E2F5;
+    left:714px;
+    top:3575px;
+}
+.CardHeader{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #000000;
+}
+.TimeLineBoxLeft{
+    width: 534.5px;
+    height: 155px;
+    background: url(Vectors/Timelinebox.svg);
+    background-repeat:no-repeat;
+      
+}
+.text {
+    color:white;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    padding:40px 10px;
+    align-items: center;
+    text-align: center;
+    width: 518px;
+    height: 155px;
+}
+
+.TimeLineBoxright{
+    width: 534.5px;
+    height: 155px;
+    background: url(Vectors/Timelinebox2.svg);
+    background-repeat:no-repeat;  
+}
+
+.posi1{
+    position: absolute;
+    left: 157px;
+    top: 1954px;
+}  
+
+.posi2{
+    position: absolute;
+    left: 777px;
+    top: 2003px;   
+}
+
+.posi3{
+    position: absolute;
+    left: 157px;
+    top: 2301px;  
+}
+
+.posi4{
+    position: absolute;
+    left: 777px;
+    top: 2580px;
+}
+
+.posi5 {
+    position: absolute;
+    left: 157px;
+    top: 2850px;
+}
+
+.posi6{
+    position: absolute;
+    left: 777px;
+    top: 3120px;
+}
+.posi7{
+    position: absolute;
+    left: 777px;
+    top: 3375px;
+}
+
+.contactMe{
+    position: absolute;
+    left: 464px;
+    top: 3861px;
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 49px;
+    text-align: center;
+    color: #000000;
+}
+
+.Email a{
+    font-weight: normal;
+    text-decoration: none;
+    color:#595959;   
+    margin-top: 123px;
+    width: 606px;
+    height: 51px;
+}
+.Email{
+    margin-top: 23px;
+}
+
+.Social{
+    position: absolute;
+    left:290px;
+    top: 4000px;
+    color:#000000;
+    display:flex;
+    align-items: baseline;
+    
+}
+
+.Social img{
+    margin-left: 150px;
+    margin-top: 92px;
+}
+
+.work{
+    position: absolute;
+    width: 316px;
+    height: 33px;
+    left:180px;
+    top:4314px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color:#000000;
+}
+.WorkLinks{
+    width: 267px;
+    height: 54px;
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 49px;
+    display:flex;
+    align-items: baseline;
+}
+
+.WorkLinks a{
+        padding:54px;
+       text-decoration: none;
+        margin-left: -54px;
+        color:#000000;
+}
+
+.workLinks a:hover {
+    font-size: 50px;
+    line-height: 59px;
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+    color: #BF9C9C;
+}
